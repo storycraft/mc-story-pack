@@ -1,0 +1,11 @@
+{
+    "variants": {
+        "snowy=false": [
+            { "model": "block/grass_block_ingame" },
+            { "model": "block/grass_block_ingame", "y": 90 },
+            { "model": "block/grass_block_ingame", "y": 180 },
+            { "model": "block/grass_block_ingame", "y": 270 }
+        ],
+        "snowy=true":  { "model": "block/grass_block_snow" }
+    }
+}
