@@ -1,0 +1,7 @@
+{
+    "parent": "block/ore_border",
+    "textures": {
+        "all": "block/coal_ore",
+		"ore_block": "block/coal_block"
+    }
+}

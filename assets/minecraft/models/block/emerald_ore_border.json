@@ -1,0 +1,7 @@
+{
+    "parent": "block/ore_border",
+    "textures": {
+        "all": "block/emerald_ore",
+		"ore_block": "block/emerald_block"
+    }
+}

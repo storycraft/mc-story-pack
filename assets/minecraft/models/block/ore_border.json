@@ -1,166 +1,590 @@
 {
+    "parent": "block/cube_all",
     "elements": [
+        {   "from": [ 0, 0, 0 ],
+            "to": [ 16, 16, 16 ],
+            "faces": {
+                "down":  { "texture": "#all", "cullface": "down" },
+                "up":    { "texture": "#all", "cullface": "up" },
+                "north": { "texture": "#all", "cullface": "north" },
+                "south": { "texture": "#all", "cullface": "south" },
+                "west":  { "texture": "#all", "cullface": "west" },
+                "east":  { "texture": "#all", "cullface": "east" }
+            }
+        },
         {
             "from": [
                 0,
                 0,
+                -0.005
+            ],
+            "to": [
+                1,
+                16,
+                -0.005
+            ],
+            "faces": {
+                "north": {
+                    "texture": "#ore_block",
+                    "cullface": "north",
+                    "uv": [
+                        15,
+                        0,
+                        16,
+                        16
+                    ]
+                }
+            }
+        },
+        {
+            "from": [
+                15,
+                0,
+                -0.005
+            ],
+            "to": [
+                16,
+                16,
+                -0.005
+            ],
+            "faces": {
+                "north": {
+                    "texture": "#ore_block",
+                    "cullface": "north",
+                    "uv": [
+                        0,
+                        0,
+                        1,
+                        16
+                    ]
+                }
+            }
+        },
+        {
+            "from": [
+                0,
+                0,
+                -0.005
+            ],
+            "to": [
+                16,
+                1,
+                -0.005
+            ],
+            "faces": {
+                "north": {
+                    "texture": "#ore_block",
+                    "cullface": "north",
+                    "uv": [
+                        0,
+                        15,
+                        15,
+                        16
+                    ]
+                }
+            }
+        },
+        {
+            "from": [
+                0,
+                15,
+                -0.005
+            ],
+            "to": [
+                16,
+                16,
+                -0.005
+            ],
+            "faces": {
+                "north": {
+                    "texture": "#ore_block",
+                    "cullface": "north",
+                    "uv": [
+                        0,
+                        0,
+                        16,
+                        1
+                    ]
+                }
+            }
+        },
+        {
+            "from": [
+                0,
+                0,
+                16.005
+            ],
+            "to": [
+                1,
+                16,
+                16.005
+            ],
+            "faces": {
+                "south": {
+                    "texture": "#ore_block",
+                    "cullface": "south",
+                    "uv": [
+                        0,
+                        0,
+                        1,
+                        16
+                    ]
+                }
+            }
+        },
+        {
+            "from": [
+                15,
+                0,
+                16.005
+            ],
+            "to": [
+                16,
+                16,
+                16.005
+            ],
+            "faces": {
+                "south": {
+                    "texture": "#ore_block",
+                    "cullface": "south",
+                    "uv": [
+                        15,
+                        0,
+                        16,
+                        16
+                    ]
+                }
+            }
+        },
+        {
+            "from": [
+                0,
+                0,
+                16.005
+            ],
+            "to": [
+                16,
+                1,
+                16.005
+            ],
+            "faces": {
+                "south": {
+                    "texture": "#ore_block",
+                    "cullface": "south",
+                    "uv": [
+                        0,
+                        15,
+                        15,
+                        16
+                    ]
+                }
+            }
+        },
+        {
+            "from": [
+                0,
+                15,
+                16.005
+            ],
+            "to": [
+                16,
+                16,
+                16.005
+            ],
+            "faces": {
+                "south": {
+                    "texture": "#ore_block",
+                    "cullface": "south",
+                    "uv": [
+                        0,
+                        0,
+                        16,
+                        1
+                    ]
+                }
+            }
+        },
+        {
+            "from": [
+                0,
+                16.005,
                 0
             ],
             "to": [
                 16,
+                16.005,
+                1
+            ],
+            "faces": {
+                "up": {
+                    "texture": "#ore_block",
+                    "cullface": "up",
+                    "uv": [
+                        0,
+                        0,
+                        16,
+                        1
+                    ]
+                }
+            }
+        },
+        {
+            "from": [
+                0,
+                16.005,
+                15
+            ],
+            "to": [
                 16,
+                16.005,
+                16
+            ],
+            "faces": {
+                "up": {
+                    "texture": "#ore_block",
+                    "cullface": "up",
+                    "uv": [
+                        0,
+                        15,
+                        16,
+                        16
+                    ]
+                }
+            }
+        },
+        {
+            "from": [
+                0,
+                16.005,
+                0
+            ],
+            "to": [
+                1,
+                16.005,
+                16
+            ],
+            "faces": {
+                "up": {
+                    "texture": "#ore_block",
+                    "cullface": "up",
+                    "uv": [
+                        0,
+                        0,
+                        1,
+                        16
+                    ]
+                }
+            }
+        },
+        {
+            "from": [
+                15,
+                16.005,
+                0
+            ],
+            "to": [
+                16,
+                16.005,
+                16
+            ],
+            "faces": {
+                "up": {
+                    "texture": "#ore_block",
+                    "cullface": "up",
+                    "uv": [
+                        15,
+                        0,
+                        16,
+                        16
+                    ]
+                }
+            }
+        },
+        {
+            "from": [
+                0,
+                -0.005,
+                0
+            ],
+            "to": [
+                16,
+                -0.005,
+                1
+            ],
+            "faces": {
+                "down": {
+                    "texture": "#ore_block",
+                    "cullface": "down",
+                    "uv": [
+                        0,
+                        15,
+                        16,
+                        16
+                    ]
+                }
+            }
+        },
+        {
+            "from": [
+                0,
+                -0.005,
+                15
+            ],
+            "to": [
+                16,
+                -0.005,
                 16
             ],
             "faces": {
                 "down": {
-                    "uv": [
-                        16,
-                        16,
-                        0,
-                        0
-                    ],
-                    "texture": "#all"
-                },
-                "up": {
+                    "texture": "#ore_block",
+                    "cullface": "down",
                     "uv": [
                         0,
                         0,
                         16,
-                        16
-                    ],
-                    "texture": "#all"
-                },
-                "north": {
-                    "uv": [
-                        0,
-                        0,
-                        16,
-                        16
-                    ],
-                    "texture": "#all"
-                },
-                "south": {
-                    "uv": [
-                        0,
-                        0,
-                        16,
-                        16
-                    ],
-                    "texture": "#all"
-                },
-                "west": {
-                    "uv": [
-                        0,
-                        0,
-                        16,
-                        16
-                    ],
-                    "texture": "#all"
-                },
-                "east": {
-                    "uv": [
-                        0,
-                        0,
-                        16,
-                        16
-                    ],
-                    "texture": "#all"
+                        1
+                    ]
                 }
             }
         },
         {
             "from": [
-                5,
-                -0.01,
-                5
+                0,
+                -0.005,
+                0
             ],
             "to": [
-                11,
-                16.01,
-                11
+                1,
+                -0.005,
+                16
             ],
             "faces": {
                 "down": {
+                    "texture": "#ore_block",
+                    "cullface": "down",
                     "uv": [
-                        11,
-                        11,
-                        5,
-                        5
-                    ],
-                    "texture": "#ore_block"
-                },
-                "up": {
-                    "uv": [
-                        5,
-                        5,
-                        11,
-                        11
-                    ],
-                    "texture": "#ore_block"
+                        0,
+                        0,
+                        1,
+                        16
+                    ]
                 }
             }
         },
         {
             "from": [
-                -0.01,
-                5,
-                5
+                15,
+                -0.005,
+                0
             ],
             "to": [
-                16.01,
-                11,
-                11
+                16,
+                -0.005,
+                16
+            ],
+            "faces": {
+                "down": {
+                    "texture": "#ore_block",
+                    "cullface": "down",
+                    "uv": [
+                        15,
+                        0,
+                        16,
+                        16
+                    ]
+                }
+            }
+        },
+        {
+            "from": [
+                -0.005,
+                0,
+                0
+            ],
+            "to": [
+                -0.005,
+                16,
+                1
             ],
             "faces": {
                 "west": {
+                    "texture": "#ore_block",
+                    "cullface": "west",
                     "uv": [
-                        5,
-                        5,
-                        11,
-                        11
-                    ],
-                    "texture": "#ore_block"
-                },
-                "east": {
-                    "uv": [
-                        5,
-                        5,
-                        11,
-                        11
-                    ],
-                    "texture": "#ore_block"
+                        0,
+                        0,
+                        1,
+                        16
+                    ]
                 }
             }
         },
         {
             "from": [
-                5,
-                5,
-                -0.01
+                -0.005,
+                0,
+                15
             ],
             "to": [
-                11,
-                11,
-                16.01
+                -0.005,
+                16,
+                16
             ],
             "faces": {
-                "north": {
+                "west": {
+                    "texture": "#ore_block",
+                    "cullface": "west",
                     "uv": [
-                        5,
-                        5,
-                        11,
-                        11
-                    ],
-                    "texture": "#ore_block"
-                },
-                "south": {
+                        15,
+                        0,
+                        16,
+                        16
+                    ]
+                }
+            }
+        },
+        {
+            "from": [
+                -0.005,
+                0,
+                0
+            ],
+            "to": [
+                -0.005,
+                1,
+                16
+            ],
+            "faces": {
+                "west": {
+                    "texture": "#ore_block",
+                    "cullface": "west",
                     "uv": [
-                        5,
-                        5,
-                        11,
-                        11
-                    ],
-                    "texture": "#ore_block"
+                        0,
+                        15,
+                        16,
+                        16
+                    ]
+                }
+            }
+        },
+        {
+            "from": [
+                -0.005,
+                15,
+                0
+            ],
+            "to": [
+                -0.005,
+                16,
+                16
+            ],
+            "faces": {
+                "west": {
+                    "texture": "#ore_block",
+                    "cullface": "west",
+                    "uv": [
+                        0,
+                        0,
+                        16,
+                        1
+                    ]
+                }
+            }
+        },
+        {
+            "from": [
+                16.005,
+                0,
+                0
+            ],
+            "to": [
+                16.005,
+                16,
+                1
+            ],
+            "faces": {
+                "east": {
+                    "texture": "#ore_block",
+                    "cullface": "east",
+                    "uv": [
+                        15,
+                        0,
+                        16,
+                        16
+                    ]
+                }
+            }
+        },
+        {
+            "from": [
+                16.005,
+                0,
+                15
+            ],
+            "to": [
+                16.005,
+                16,
+                16
+            ],
+            "faces": {
+                "east": {
+                    "texture": "#ore_block",
+                    "cullface": "east",
+                    "uv": [
+                        0,
+                        0,
+                        1,
+                        16
+                    ]
+                }
+            }
+        },
+        {
+            "from": [
+                16.005,
+                0,
+                0
+            ],
+            "to": [
+                16.005,
+                1,
+                16
+            ],
+            "faces": {
+                "east": {
+                    "texture": "#ore_block",
+                    "cullface": "east",
+                    "uv": [
+                        0,
+                        15,
+                        16,
+                        16
+                    ]
+                }
+            }
+        },
+        {
+            "from": [
+                16.005,
+                15,
+                0
+            ],
+            "to": [
+                16.005,
+                16,
+                16
+            ],
+            "faces": {
+                "east": {
+                    "texture": "#ore_block",
+                    "cullface": "east",
+                    "uv": [
+                        0,
+                        0,
+                        16,
+                        1
+                    ]
                 }
             }
         }
