@@ -1,5 +1,5 @@
 {
     "variants": {
-        "": { "model": "block/emerald_ore_border" }
+        "normal": { "model": "emerald_ore_border" }
     }
 }

@@ -1,5 +1,5 @@
 {
     "variants": {
-        "": { "model": "block/lapis_ore_border" }
+        "normal": { "model": "lapis_ore_border" }
     }
 }

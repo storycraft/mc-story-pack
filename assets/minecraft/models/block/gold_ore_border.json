@@ -1,7 +1,7 @@
 {
     "parent": "block/ore_border",
     "textures": {
-        "all": "block/gold_ore",
-		"ore_block": "block/gold_block"
+        "all": "blocks/gold_ore",
+		"ore_block": "blocks/gold_block"
     }
 }

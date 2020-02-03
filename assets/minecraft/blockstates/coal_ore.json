@@ -1,5 +1,5 @@
 {
     "variants": {
-        "": { "model": "block/coal_ore_border" }
+        "normal": { "model": "coal_ore_border" }
     }
 }

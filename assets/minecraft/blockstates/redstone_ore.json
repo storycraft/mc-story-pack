@@ -1,6 +1,5 @@
 {
     "variants": {
-        "lit=false": { "model": "block/redstone_ore_border" },
-        "lit=true": { "model": "block/redstone_ore_on_border" }
+        "normal": { "model": "redstone_ore_border" }
     }
 }

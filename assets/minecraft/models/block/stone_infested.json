@@ -1,7 +1,7 @@
 {
 "textures": {
-    "particle": "block/redstone_block",
-    "stone": "block/stone"
+    "particle": "blocks/redstone_block",
+    "stone": "blocks/stone"
 },
 "elements": [ 
 {

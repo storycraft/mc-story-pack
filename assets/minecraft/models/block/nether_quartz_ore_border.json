@@ -1,7 +1,7 @@
 {
     "parent": "block/ore_border",
     "textures": {
-        "all": "block/nether_quartz_ore",
-		"ore_block": "block/quartz_block_side"
+        "all": "blocks/quartz_ore",
+		"ore_block": "blocks/quartz_block_side"
     }
 }

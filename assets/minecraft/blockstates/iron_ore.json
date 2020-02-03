@@ -1,5 +1,5 @@
 {
     "variants": {
-        "": { "model": "block/iron_ore_border" }
+        "normal": { "model": "iron_ore_border" }
     }
 }

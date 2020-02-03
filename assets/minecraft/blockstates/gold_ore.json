@@ -1,5 +1,5 @@
 {
     "variants": {
-        "": { "model": "block/gold_ore_border" }
+        "normal": { "model": "gold_ore_border" }
     }
 }

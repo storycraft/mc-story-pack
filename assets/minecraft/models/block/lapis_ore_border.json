@@ -1,7 +1,7 @@
 {
     "parent": "block/ore_border",
     "textures": {
-        "all": "block/lapis_ore",
-		"ore_block": "block/lapis_block"
+        "all": "blocks/lapis_ore",
+		"ore_block": "blocks/lapis_block"
     }
 }

@@ -1,5 +1,5 @@
 {
-    "parent": "block/hopper",
+    "parent": "block/hopper_down",
 	"display": {
 		"thirdperson_righthand": {
 			"rotation":  [ 75, 45, 0 ],

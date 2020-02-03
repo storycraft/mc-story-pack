@@ -1,5 +1,5 @@
 {
     "variants": {
-        "": { "model": "block/diamond_ore_border" }
+        "normal": { "model": "diamond_ore_border" }
     }
 }

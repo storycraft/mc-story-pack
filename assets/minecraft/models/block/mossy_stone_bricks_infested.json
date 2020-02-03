@@ -1,7 +1,7 @@
 {
 "textures": {
-    "particle": "block/redstone_block",
-    "stonebrick": "block/mossy_stone_bricks"
+    "particle": "blocks/redstone_block",
+    "stonebrick": "blocks/stonebrick_mossy"
 },
 "elements": [ 
 {
