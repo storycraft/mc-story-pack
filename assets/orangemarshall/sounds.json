@@ -1,0 +1,44 @@
+{
+    "blood_effect": {
+	    "replace": true,
+        "category": "player",
+	    "sounds": [
+		    {
+            "name": "entity/player/attack/hitnormal",
+			"weight": 8,
+            "pitch": 1.0
+            },
+            {
+            "name": "entity/player/attack/hitclap",
+			"weight": 1,
+            "pitch": 1.0
+            }
+		]
+	},
+	"blood_effect2": {
+	    "replace": true,
+        "category": "player",
+	    "sounds": [
+		    {
+            "name": "entity/player/attack/hitnormal",
+			"weight": 8,
+            "pitch": 1.0
+            },
+            {
+            "name": "entity/player/attack/hitclap",
+			"weight": 1,
+            "pitch": 1.0
+            }
+		]
+	},
+	"final_kill": {
+        "replace": true,
+        "category": "player",
+        "sounds": [
+			{
+            "name": "entity/player/attack/hitfinish",
+            "pitch": 1.0
+            }
+        ]
+    }
+}

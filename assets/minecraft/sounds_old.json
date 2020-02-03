@@ -1,0 +1,140 @@
+{
+    "entity.player.attack.hit": {
+        "replace": true,
+        "category": "player",
+        "sounds": [
+            {
+            "name": "entity/player/attack/hitnormal",
+			"weight": 8,
+            "pitch": 1.0
+            },
+            {
+            "name": "entity/player/attack/hitclap",
+			"weight": 1,
+            "pitch": 1.0
+            }
+        ]
+    },
+    "entity.player.attack.crit": {
+        "replace": true,
+        "category": "player",
+        "sounds": [
+            {
+            "name": "entity.player.attack.hit",
+            "type": "event",
+            "pitch": 1.0
+            }
+        ]
+    },
+    "entity.player.attack.knockback": {
+        "replace": true,
+        "category": "player",
+        "sounds": [
+            {
+            "name": "entity.player.attack.hit",
+            "type": "event",
+            "pitch": 1.0
+            }
+        ]
+    },
+    "entity.player.attack.strong": {
+        "replace": true,
+        "category": "player",
+        "sounds": [
+            {
+            "name": "entity.player.attack.hit",
+            "type": "event",
+            "pitch": 1.0
+            }
+        ]
+    },
+    "entity.player.attack.sweep": {
+        "replace": true,
+        "category": "player",
+        "sounds": [
+            {
+            "name": "entity.player.attack.hit",
+            "type": "event",
+            "pitch": 1.0
+            }
+        ]
+    },
+    "entity.player.attack.weak": {
+        "replace": true,
+        "category": "player",
+        "sounds": [
+            {
+            "name": "entity.player.attack.hit",
+            "type": "event",
+            "pitch": 1.0
+            }
+        ]
+    },
+    "entity.player.attack.nodamage": {
+        "replace": true,
+        "category": "player",
+        "sounds": [
+            {
+            "name": "entity.player.attack.hit",
+            "type": "event",
+            "pitch": 1.0
+            }
+        ]
+    },
+    "entity.generic.hurt": {
+        "replace": false,
+        "category": "player",
+        "sounds": [
+		
+        ]
+    },
+    "entity.generic.death": {
+        "replace": false,
+        "category": "player",
+        "sounds": [
+			
+        ]
+    },
+    "entity.player.hurt": {
+        "replace": false,
+        "category": "player",
+        "sounds": [
+			{
+            "name": "entity.player.attack.hit",
+            "type": "event",
+            "pitch": 1.0
+            }
+        ]
+    },
+    "game.player.hurt": {
+        "replace": false,
+        "category": "player",
+        "sounds": [
+			{
+            "name": "entity.player.attack.hit",
+            "type": "event",
+            "pitch": 1.0
+            }
+        ]
+    },
+    "game.player.die": {
+        "replace": false,
+        "category": "player",
+        "sounds": [
+			{
+            "name": "entity/player/attack/hitfinish",
+            "pitch": 1.0
+            }
+        ]
+    },
+    "entity.player.death": {
+        "replace": false,
+        "category": "player",
+        "sounds": [
+			{
+            "name": "entity/player/attack/hitfinish",
+            "pitch": 1.0
+            }
+        ]
+    }
+}

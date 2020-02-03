@@ -1,0 +1,7 @@
+{
+    "parent": "block/ctm",
+    "textures": {
+        "all": "ctm/iron_block/0",
+        "base": "ctm/iron_block/26"
+    }
+}
