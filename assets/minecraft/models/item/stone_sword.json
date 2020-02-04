@@ -14,10 +14,10 @@
             "translation": [ 1.13, 3.2, 1.13 ],
             "scale": [ 0.45, 0.45, 0.45 ]
         },
-		"thirdperson": {
+        "thirdperson": {
             "rotation": [ 0, 90, -35 ],
             "translation": [ 0, 1.25, -3.5 ],
-            "scale": [ 0.45, 0.45, 0.45 ]
+            "scale": [ 0.8, 0.8, 0.8 ]
         },
         "firstperson": {
             "rotation": [ 0, -135, 25 ],
